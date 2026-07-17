@@ -1,11 +1,14 @@
 # SlidingPuzzleAi
 My first AI Project - Sammy's Schiebepuzzle 🐈
 
+(Juli 2026)
+
 A charming 3x3 sliding puzzle game featuring **Sammy the Cat**. Built with Kotlin Multiplatform and Jetpack Compose.
 
-📸 Showcase
 
----
+## 📸 Showcase
+<!-- ![](Sammy's Schiebepuzzle.gif) -->
+<img src="Sammys Schiebepuzzle.gif" width="250" height="500"/>
 
 ## 🇩🇪 Zusammenfassung (Deutsch)
 **Sammy's Schiebepuzzle** ist ein klassisches Denkspiel, bei dem ein Bild von Sammy der Katze in 9 Teile zerlegt wird. Ein Feld bleibt frei, und der Spieler muss die anderen Kacheln geschickt verschieben, um das Originalbild wiederherzustellen.
