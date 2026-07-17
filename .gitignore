@@ -1,0 +1,32 @@
+# Gradle files
+.gradle
+/build
+/app/build
+
+# IDE - Android Studio / IntelliJ
+*.iml
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/caches
+/.idea/modules.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/kotlinc.xml
+.navigation/
+
+# Local configuration
+local.properties
+
+# Kotlin & Multiplatform
+.kotlin
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs & Captures
+*.log
+/captures
+.externalNativeBuild
+.cxx

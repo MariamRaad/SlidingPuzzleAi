@@ -1,0 +1,6 @@
+- [x] Rename `compose-compiler` to `kotlin-compose` in `libs.versions.toml`
+- [x] Update plugin alias in root `build.gradle.kts`
+- [x] Update plugin alias in `app/build.gradle.kts`
+- [x] Run Gradle Sync
+- [x] Fix Coil 3 package names in `SlidingPuzzleScreen.kt`
+- [x] Verify build with `:app:assembleDebug`

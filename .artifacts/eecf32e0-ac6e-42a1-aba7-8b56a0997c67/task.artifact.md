@@ -1,0 +1,4 @@
+- [x] Update `walkthrough.artifact.md` with final naming
+- [x] Create `github_readme.artifact.md` (DE/EN, Tech Stack, AI Learnings)
+- [x] Create `technical_docs.artifact.md` (Architecture, Logic)
+- [x] Delete `requirement_template.artifact.md`
