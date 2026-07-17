@@ -27,7 +27,6 @@ fun main() = application {
                 horizontalBias = viewModel.currentImage.horizontalBias,
                 onTileClick = viewModel::onTileClick,
                 onShuffle = viewModel::shuffle,
-                onReset = viewModel::resetCurrent,
                 onNewGame = viewModel::startNewGame
             )
         }

@@ -26,6 +26,8 @@ import org.jetbrains.compose.resources.painterResource
 
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import com.example.slidingpuzzleai.ui.theme.OrangeText
+import androidx.compose.material3.TopAppBarDefaults
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
@@ -39,7 +41,6 @@ fun SlidingPuzzleScreen(viewModel: SlidingPuzzleViewModel) {
         horizontalBias = viewModel.currentImage.horizontalBias,
         onTileClick = viewModel::onTileClick,
         onShuffle = viewModel::shuffle,
-        onReset = viewModel::resetCurrent,
         onNewGame = viewModel::startNewGame
     )
 }
@@ -55,13 +56,15 @@ fun SlidingPuzzleContent(
     horizontalBias: Float,
     onTileClick: (Int) -> Unit,
     onShuffle: () -> Unit,
-    onReset: () -> Unit,
     onNewGame: () -> Unit
 ) {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text("Sammy's Schiebepuzzle 🐈") }
+                title = { Text("Sammy's Schiebepuzzle 🐈") },
+                colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background
+                )
             )
         }
     ) { padding ->
@@ -80,7 +83,8 @@ fun SlidingPuzzleContent(
                 Text(
                     text = "Vorschau:",
                     style = MaterialTheme.typography.labelMedium,
-                    modifier = Modifier.padding(bottom = 4.dp)
+                    modifier = Modifier.padding(bottom = 4.dp),
+                    color = MaterialTheme.colorScheme.secondary // Lighter orange
                 )
                 ReferenceImage(imageResource)
             }
@@ -89,7 +93,7 @@ fun SlidingPuzzleContent(
                 text = "Züge: $moveCount",
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.primary
+                color = MaterialTheme.colorScheme.secondary // Lighter orange
             )
 
             Box(
@@ -116,28 +120,34 @@ fun SlidingPuzzleContent(
                 )
             }
 
-            Row(
-                modifier = Modifier.fillMaxWidth(0.8f),
-                horizontalArrangement = Arrangement.SpaceEvenly
+            // Shuffle Button
+            OutlinedButton(
+                onClick = onShuffle,
+                modifier = Modifier.fillMaxWidth(0.25f),
+                colors = ButtonDefaults.outlinedButtonColors(
+                    containerColor = MaterialTheme.colorScheme.primary,
+                    contentColor = MaterialTheme.colorScheme.onBackground
+                ),
+                border = ButtonDefaults.outlinedButtonBorder(enabled = true).copy(
+                    brush = androidx.compose.ui.graphics.SolidColor(MaterialTheme.colorScheme.secondary)
+                )
             ) {
-                Button(onClick = onShuffle) {
-                    Text("Mischen")
-                }
-                
-                Button(
-                    onClick = onReset,
-                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
-                ) {
-                    Text("Neustarten")
-                }
+                Text("Mischen", fontWeight = FontWeight.Bold, color = Color.White)
             }
 
-            Button(
+            // New Game Button
+            OutlinedButton(
                 onClick = onNewGame,
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.tertiary),
-                modifier = Modifier.padding(top = 8.dp)
+                modifier = Modifier.padding(top = 8.dp).fillMaxWidth(0.25f),
+                colors = ButtonDefaults.outlinedButtonColors(
+                    containerColor = MaterialTheme.colorScheme.primary,
+                    contentColor = MaterialTheme.colorScheme.onBackground
+                ),
+                border = ButtonDefaults.outlinedButtonBorder(enabled = true).copy(
+                    brush = androidx.compose.ui.graphics.SolidColor(MaterialTheme.colorScheme.secondary)
+                )
             ) {
-                Text("Nächstes Bild")
+                Text("Nächstes Bild", fontWeight = FontWeight.Bold, color = Color.White)
             }
         }
     }
