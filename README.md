@@ -1,9 +1,10 @@
-# SlidingPuzzleAi
-My first AI Project - Sammy's Schiebepuzzle 🐈
+# SlidingPuzzleAi - My first AI Project - Sammy's Schiebepuzzle 🐈
 
 (Juli 2026)
 
-A charming 3x3 sliding puzzle game featuring **Sammy the Cat**. Built with Kotlin Multiplatform and Jetpack Compose.
+A charming 3×3 sliding puzzle game, created in loving memory of my soul cat Sammy (13 Nov 2008 – 10 Nov 2025) 🧡
+
+Built with Kotlin Multiplatform and Jetpack Compose.
 
 
 ## 📸 Showcase
