@@ -1,8 +1,8 @@
-# SlidingPuzzleAi - My first AI Project - Sammy's Schiebepuzzle 🐈
+# SlidingPuzzleAi - My first AI Project - Sammy's Sliding Puzzle 🐈
 
 (Juli 2026)
 
-A charming 3×3 sliding puzzle game, created in loving memory of my soul cat Sammy (13 Nov 2008 – 10 Nov 2025) 🧡
+A charming 3×3 sliding puzzle game, created in loving memory of my soul cat Sammy (born June 2008, first day with us 13 Nov 2008 – 10 Nov 2025) 🧡
 
 Built with Kotlin Multiplatform and Jetpack Compose.
 
@@ -11,19 +11,7 @@ Built with Kotlin Multiplatform and Jetpack Compose.
 <!-- ![](Sammy's Schiebepuzzle.gif) -->
 <img src="Sammys Schiebepuzzle.gif" width="250" height="500"/>
 
-## 🇩🇪 Zusammenfassung (Deutsch)
-**Sammy's Schiebepuzzle** ist ein klassisches Denkspiel, bei dem ein Bild von Sammy der Katze in 9 Teile zerlegt wird. Ein Feld bleibt frei, und der Spieler muss die anderen Kacheln geschickt verschieben, um das Originalbild wiederherzustellen.
-
-### Features:
-- **Exklusive Bilder**: Enthält 3 handverlesene, hochauflösende Bilder von Sammy.
-- **Plattformübergreifend**: Läuft nativ auf Windows (Desktop) und Android.
-- **Intelligentes Cropping**: Die Bilder werden automatisch so zentriert, dass Sammys Gesicht immer im Fokus steht.
-- **Spiel-Statistiken**: Ein Zugzähler zeigt dir, wie effizient du das Puzzle gelöst hast.
-- **Offline-First**: Alle Bilder sind lokal in der App gespeichert.
-
----
-
-## 🇺🇸 Summary (English)
+## Summary
 **Sammy's Schiebepuzzle** is a classic brain teaser where a picture of Sammy the Cat is divided into a 3x3 grid. With one empty slot, the player must strategically slide the tiles to reconstruct the full image.
 
 ### Features:
@@ -62,6 +50,6 @@ You can run the app directly from your terminal using Gradle:
 This project was developed in collaboration with an AI assistant. Here are the key takeaways from the development process:
 
 - **Prompting is Key**: Writing clear, descriptive prompts and providing context is crucial for high-quality AI output.
-- **Token Efficiency**: Throughout the development, I asked numerous prompts and used approximately **200k tokens** (out of a 1M limit). The fear of "running out of tokens" proved unnecessary for a project of this scale.
+- **Token Efficiency**: Throughout the development, I asked numerous prompts and used about **one-fifth of the available context window**. The fear of "running out of tokens" proved unnecessary for a project of this scale.
 - **Rapid Prototyping**: A functional, cross-platform application was built from scratch within about **a single day** — a process that would typically take much longer manually.
 - **Smart Documentation**: Using AI "Artifacts" for changelogs and documentation saved a significant amount of administrative work, allowing more focus on logic and design.
