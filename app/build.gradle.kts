@@ -75,11 +75,11 @@ android {
 
 compose.desktop {
     application {
-        mainClass = "MainKt"
+        mainClass = "com.example.slidingpuzzleai.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "SlidingPuzzleAi"
+            packageName = "SammysSchiebepuzzle"
             packageVersion = "1.0.0"
         }
     }

@@ -33,12 +33,14 @@ Open the terminal at the bottom of Android Studio and type:
 ./gradlew :app:run
 ```
 
-### Option 2: Gradle Tab
-1.  Open the **Gradle** tab on the right side of Android Studio.
-2.  Navigate to: `SlidingPuzzleAi` -> `app` -> `Tasks` -> `compose desktop` -> `run`.
-3.  Double-click on **run**.
+### Option 3: Portable Windows Application (Standalone)
+If you want to run the app without Android Studio or share it with others:
+1.  Navigate to this folder on your PC:
+    `D:\Projects\SlidingPuzzleAi\app\build\compose\binaries\main\app\SammysSchiebepuzzle`
+2.  Double-click on **`SammysSchiebepuzzle.exe`**.
 
-The game will compile and open in a new Windows window. It works completely offline!
+> [!TIP]
+> You can zip the entire `SammysSchiebepuzzle` folder and send it to anyone using Windows. They don't need to install anything!
 
 ## Verification Results
 - [x] Specific orange cat images downloaded and integrated as local resources.

@@ -1,4 +1,7 @@
-- [x] Update `walkthrough.artifact.md` with final naming
-- [x] Create `github_readme.artifact.md` (DE/EN, Tech Stack, AI Learnings)
-- [x] Create `technical_docs.artifact.md` (Architecture, Logic)
-- [x] Delete `requirement_template.artifact.md`
+- [x] Configure KMP & Coil 3
+- [x] Move logic/UI to commonMain
+- [x] Implement user-provided specific orange cat image list
+- [x] Update Desktop window size to 600x850
+- [x] Compact UI layout (Reference: 100dp, Grid: 380dp, Spacing: 12dp)
+- [x] Generate portable Windows distributable
+- [x] Verify generated application folder and executable
