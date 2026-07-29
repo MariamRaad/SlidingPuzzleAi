@@ -21,8 +21,6 @@ Built with Kotlin Multiplatform and Jetpack Compose.
 - **Fully Offline**: All resources are bundled within the app.
 - **Cross-Platform**: Runs natively on Windows Desktop and Android.
 
----
-
 ## 🛠 Tech Stack
 - **IDE**: Android Studio 2026.1.2
 - **AI Assistant**: Gemini (Model: Gemini 3 Flash Preview)
@@ -31,12 +29,10 @@ Built with Kotlin Multiplatform and Jetpack Compose.
 - **Shared Code**: Kotlin Multiplatform (KMP)
 - **Resources**: Compose Resources (bundled assets)
 
----
-
 ## 🚀 How to Run / Start
 
 ### Option 1: Standalone (Fastest & Easiest)
-Download the **`SammysSchiebepuzzle.zip`** from the root of this repository, extract it, and run the **`SammysSchiebepuzzle.exe`**. No installation or additional software required!
+Download the **`SammysSchiebepuzzle.zip`** from either the Releases section or the general root of this repository, extract it, and run the **`SammysSchiebepuzzle.exe`**. No installation or additional software required!
 
 ### Option 2: Build from Source
 If you want to build and run the app manually using Gradle:
