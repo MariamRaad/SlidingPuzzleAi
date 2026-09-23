@@ -1,8 +1,6 @@
 # My first AI Project - Sammy's Sliding Puzzle 🐈
 
-(July 2026)
-
-A charming 3×3 sliding puzzle game, created in loving memory of my soul cat Sammy (born ~June 2008, first day with us 13 Nov 2008 – 10 Nov 2025) 🧡
+A charming 3×3 sliding puzzle game, created in July 2026 in loving memory of my soul cat Sammy (born ~June 2008, first day with us 13 Nov 2008 - 10 Nov 2025) 🧡
 
 
 ## 📸 Showcase
