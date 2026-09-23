@@ -4,8 +4,6 @@
 
 A charming 3×3 sliding puzzle game, created in loving memory of my soul cat Sammy (born ~June 2008, first day with us 13 Nov 2008 – 10 Nov 2025) 🧡
 
-Built with Kotlin Multiplatform and Jetpack Compose.
-
 
 ## 📸 Showcase
 <!-- ![](Sammy's Schiebepuzzle.gif) -->
