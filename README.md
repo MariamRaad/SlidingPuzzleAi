@@ -8,7 +8,7 @@ A charming 3×3 sliding puzzle game, created in July 2026 in loving memory of my
 <img src="Sammys Schiebepuzzle.gif" width="250" height="500"/>
 
 ## Summary
-**Sammy's Sliding Puzzle** is a classic brain teaser where pictures of Sammy the Cat are divided into a 3x3 grid. With one empty slot, the player must strategically slide the tiles to reconstruct the full image.
+**Sammy's Sliding Puzzle** is a classic brain teaser where pictures of my cat Sammy are divided into a 3x3 grid. With one empty slot, the player must strategically slide the tiles to reconstruct the full image.
 
 ### Features:
 - **Game Stats**: A move counter tracks your efficiency.
